@@ -99,5 +99,11 @@
         "role": "ENFJ",
         "image": "static/images/taher.webp",
         "color": "lawngreen"
+    },
+    {
+        "name": "Akai",
+        "role": "INTX",
+        "image": "static/images/akai.png",
+        "color": "darkviolet"
     }
 ]
