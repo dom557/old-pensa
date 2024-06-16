@@ -53,9 +53,9 @@ export default function Home() {
       
       {selectedMember && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 backdrop-blur-lg z-50">
-          <div className="bg-white p-8 border rounded-lg max-w-md w-full sm:w-3/4 lg:w-1/2 text-center relative shadow-xl">
+          <div className="bg-white p-8 border rounded-lg max-w-md w-full sm:w-3/4 lg:w-1/2 text-center relative shadow-xl animate-pulse border-4 border-blue-500">
             <button
-              className="absolute top-2 right-2 p-2 rounded-full bg-gray-100 text-gray-600 hover:bg-gray-200 focus:outline-none"
+              className="absolute top-2 right-2 p-2 rounded-full bg-red-500 text-white hover:bg-red-600 focus:outline-none transition-transform transform hover:rotate-90"
               onClick={() => setSelectedMember(null)}
             >
               &times;
@@ -63,7 +63,7 @@ export default function Home() {
             <img
               src={selectedMember.image}
               alt={selectedMember.name}
-              className="w-32 h-32 object-cover rounded-full mx-auto mb-4 shadow-md"
+              className="w-32 h-32 object-cover rounded-full mx-auto mb-4 shadow-md animate-spin-slow"
             />
             <h2 className="text-3xl font-bold text-gray-900 mb-2">
               {selectedMember.name}
@@ -75,13 +75,13 @@ export default function Home() {
         </div>
       )}
 
-      <div className="mt-10 w-full px-4">
+      <div className="mt-40 w-full px-4">
         {members.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {members.map((member, index) => (
               <div
                 key={index}
-                className="relative border p-4 bg-gray-900 text-white rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-2xl cursor-pointer member-card"
+                className="relative border p-4 bg-gray-900 text-white rounded-lg shadow-lg overflow-hidden transform transition-all hover:scale-105 hover:shadow-2xl cursor-pointer member-card before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-[rgba(255,255,255,0.1)] before:to-transparent before:transition-all before:duration-300 before:transform before:skew-x-12 before:scale-x-0 hover:before:scale-x-100 after:absolute after:inset-0 after:bg-gradient-to-r after:from-transparent after:via-[rgba(255,255,255,0.1)] after:to-transparent after:transition-all after:duration-300 after:transform after:skew-x-12 after:scale-x-0 hover:after:scale-x-100"
                 onClick={() => handleCardClick(member)}
               >
                 <h2
