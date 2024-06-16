@@ -1,103 +1,103 @@
 [
     {
         "name": "Mitski",
-        "role": "Intp",
+        "role": "INTP",
         "image": "static/images/mitsuki.jpg",
-        "color": "bg-violet-600"
+        "color": "darkviolet"
     },
     {
         "name": "Samdak",
-        "role": "Infj",
+        "role": "INFJ",
         "image": "static/images/samdak.jpg",
-        "color": "bg-green-500"
+        "color": "lawngreen"
     },
     {
         "name": "Haru",
-        "role": "Xstj",
+        "role": "XSTJ",
         "image": "static/images/haru.jpg",
-        "color": "bg-blue-500"
+        "color": "deepskyblue"
     },{
         "name": "Hikary",
-        "role": "Xstj",
+        "role": "ENFJ",
         "image": "static/images/hikary.webp",
-        "color": "bg-blue-500"
+        "color": "lawngreen"
     },
     {
         "name": "Battousai",
-        "role": "Istp",
+        "role": "ISTP",
         "image": "static/images/hattori.webp",
-        "color": "bg-yellow-300"
+        "color": "yellow"
     },
     {
         "name": "Halena",
-        "role": "Istp",
+        "role": "ISTP",
         "image": "static/images/helina.webp",
-        "color": "bg-yellow-300"
+        "color": "yellow"
     },
     {
         "name": "Nameless",
-        "role": "Istp",
+        "role": "ISTP",
         "image": "static/images/nameless.webp",
-        "color": "bg-yellow-300"
+        "color": "yellow"
     },
     {
         "name": "Ros",
-        "role": "Isfp",
+        "role": "ISFP",
         "image": "static/images/ros.webp",
-        "color": "bg-yellow-300"
+        "color": "yellow"
     },
     {
         "name": "Yuki-san",
-        "role": "Infp",
+        "role": "INFP",
         "image": "static/images/YUKI.webp",
-        "color": "bg-green-500"
+        "color": "lawngreen"
     },
     {
         "name": "Yuki-kun",
         "role": "Enfp",
         "image": "static/images/yuki2.webp",
-        "color": "bg-green-500"
+        "color": "lawngreen"
     },
     {
         "name": "Naya",
-        "role": "Intp",
+        "role": "INTP",
         "image": "static/images/naya.webp",
-        "color": "bg-violet-600"
+        "color": "darkviolet"
     },
     {
         "name": "Oreki",
-        "role": "Infp",
+        "role": "INFP",
         "image": "static/images/oreki.webp",
-        "color": "bg-green-500"
+        "color": "lawngreen"
     },
     {
         "name": "Nifa",
-        "role": "Infp",
+        "role": "INFP",
         "image": "static/images/nifa.webp",
-        "color": "bg-green-500"
+        "color": "lawngreen"
     },
     {
         "name": "Shin-pain",
-        "role": "Intp",
+        "role": "INTP",
         "image": "static/images/pain.webp",
-        "color": "bg-violet-600"
+        "color": "darkviolet"
     },
     {
         "name": "Nana",
-        "role": "Intj",
+        "role": "INTJ",
         "image": "static/images/nour.webp",
-        "color": "bg-violet-600"
+        "color": "darkviolet"
     },
     {
         "name": "Zeyn",
-        "role": "Intj",
+        "role": "INTJ",
         "image": "static/images/zeyn.webp",
-        "color": "bg-violet-600"
+        "color": "darkviolet"
     },
     {
         "name": "Taher",
-        "role": "Enfj",
+        "role": "ENFJ",
         "image": "static/images/taher.webp",
-        "color": "bg-green-500"
+        "color": "lawngreen"
     }
 ]
